@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <form action="operaciones.php" method="post">
+            <h1>Elija su operacion</h1>
+            <ul>
+                <li>
+                    <label for="A">Numero A</label>
+                    <input type="text" name="a" value="0">
+                </li>
+                <li>
+                    <label for="B">Numero B</label>
+                    <input type="text" name="b" value="0">
+                </li>
+            </ul>
+            <table>
+                <tr>
+                    <td align="center">
+                        <label for="suma">Suma</label>
+                        <input type="radio" name="operacion" value="1">
+                    </td>
+                    <td align="center">
+                        <label for="multiplicacion">Multiplicacion</label>
+                        <input type="radio" name="operacion" value="2">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <label for="resta">Resta</label>
+                        <input type="radio" name="operacion" value="3">
+                    </td>
+                    <td align="center">
+                        <label for="Division">Division</label>
+                        <input type="radio" name="operacion" value="4">
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
